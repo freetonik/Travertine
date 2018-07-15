@@ -40,7 +40,7 @@
 				<key>bracketsOptions</key>
 				<string>underline</string>
 				<key>bracketContentsForeground</key>
-				<string>#F8F8F2A5</string>
+				<string>#000</string>
 				<key>bracketContentsOptions</key>
 				<string>underline</string>
 				<key>tagsOptions</key>
@@ -53,13 +53,11 @@
 			<key>name</key>
 			<string>Comments</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#AA3731</string>
+				<string>#8F251F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -70,15 +68,17 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#448C27</string>
+				<string>#267009</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Numbers, Characters</string>
 			<key>scope</key>
-			<string>constant.numeric,				constant.character, constant.keyword,
-constant</string>
+			<string>constant.numeric,
+constant.character,
+constant.keyword,
+variable,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -179,7 +179,9 @@ constant</string>
 			<key>name</key>
 			<string>Global definitions</string>
 			<key>scope</key>
-			<string>entity.name</string>
+			<string>entity.name,
+entity.other.inherited-class,
+entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -229,11 +231,11 @@ meta.separator</string>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>F01C6DC9-0977-11E3-8FFD-0811200C9A65</string>
+	<string>F01C6DC0-0977-11E3-8FFD-0800200C9A66</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.light.travertine</string>
+	<string>theme.light.alabaster</string>
 	<key>author</key>
 	<string>Rakhim Davletkaliyev</string>
 	<key>comment</key>
